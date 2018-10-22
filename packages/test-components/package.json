@@ -1,0 +1,38 @@
+{
+  "name": "@el-test/test-components",
+  "version": "0.0.1",
+  "description": "test-components",
+  "main": "lib/index.js",
+  "author": {
+    "name": "",
+    "url": "https://github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//el-test/test-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com//el-test/test-components/issues"
+  },
+  "homepage": "https://github.com//el-test/test-components",
+  "dependencies": {},
+  "devDependencies": {
+    "electrode-archetype-react-component": "^5.0.0",
+    "electrode-archetype-react-component-dev": "^5.0.0"
+  },
+  "engines": {
+    "node": ">= 6",
+    "npm": ">= 3"
+  },
+  "scripts": {
+    "prepublish": "clap prepublish",
+    "start": "clap demo",
+    "test": "clap check"
+  },
+  "keywords": [
+    "react",
+    "electrode",
+    "electrode-component",
+    "react-component"
+  ]
+}
