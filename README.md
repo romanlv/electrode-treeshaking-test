@@ -10,10 +10,10 @@ components repo can be reused by different apps, and it is important to include 
 
 - using lerna mono repo
 - created electrode application and components repo with `electrode ignite` tool (using ignite `2.1.9`)
-- add `UnusedComponent` to `test-components` package, to the same file that includes component imported by the app 
-- build components package `cd packages/test-components && npm run prepublish` 
-- build app, `cd packages/app && npm run build` 
-- test if `UnusedComponent` is included in the final bundle  
+- add `UnusedComponent` to `test-components` package, in the same file that includes component imported by the app 
+- build components package: `cd packages/test-components && npm run prepublish` 
+- build app: `cd packages/app && npm run build` 
+- test if `UnusedComponent` is included in the final bundle (using [ag - silver searcher](https://github.com/ggreer/the_silver_searcher)) 
 `ag UnusedComponent dist/* -c`   
 
 # current status 
